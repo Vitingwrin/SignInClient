@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_create_course"
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="@string/title_create_course" />
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_start_sign_in"
+            android:icon="@drawable/ic_open_in_new_black_24dp"
+            android:title="@string/initiate_sign_in" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/personal_setting" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="@string/about" />
+    </group>
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/exit" />
+
+    </group>
+</menu>

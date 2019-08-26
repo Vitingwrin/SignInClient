@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_marginTop="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/nav_head" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/userName"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="杨志超"/>
+
+            <TextView
+                android:id="@+id/userId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:textColor="#000"
+                android:layout_marginTop="5dp"
+                android:text="学号：8000115157"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/ic_chevron_right_black_24dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="#f5f5f5">
+
+
+        <TextView
+            android:id="@+id/check_record"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_white"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:text="@string/check_sign_record"
+            android:drawablePadding="20dp"
+            android:drawableStart="@drawable/ic_remove_red_eye_black_24dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/changeEmail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_white"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:paddingEnd="10dp"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:text="@string/email"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/ic_email_black_24dp"
+                android:drawableEnd="@drawable/ic_chevron_right_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eee"
+                android:layout_marginStart="22dp"/>
+            <TextView
+                android:id="@+id/changePwd"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_white"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:paddingEnd="10dp"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:text="@string/loginPwd"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/ic_lock_black_24dp"
+                android:drawableEnd="@drawable/ic_chevron_right_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eee"
+                android:layout_marginStart="22dp"/>
+            <TextView
+                android:id="@+id/changePhone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_white"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:paddingEnd="10dp"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:text="@string/phone"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/ic_call_black_24dp"
+                android:drawableEnd="@drawable/ic_chevron_right_black_24dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_white"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:text="@string/about"
+            android:drawablePadding="20dp"
+            android:drawableStart="@drawable/ic_info_black_24dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/button_danger"
+            android:text="@string/logout"
+            android:textColor="#fff"
+            android:textSize="22sp"
+             />
+
+    </LinearLayout>
+
+
+</LinearLayout>

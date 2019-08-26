@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">逃课杀手</string>
+    <string name="hello">你好</string>
+    <string name="student">我是学生</string>
+    <string name="teacher">我是老师</string>
+    <string name="register">注册</string>
+    <string name="password">密码：</string>
+    <string name="account">账号：</string>
+    <string name="account_type">学号/工资号</string>
+    <string name="userName">姓名：</string>
+    <string name="login">登录</string>
+    <string name="register_account">注册账号</string>
+    <string name="waiting">请稍候</string>
+    <string name="home_page">主页</string>
+    <string name="userId">学号</string>
+    <string name="unnamed">姓名</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_mine">我的</string>
+    <string name="title_class">班级</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_course">课程</string>
+    <string name="message_none">你还没有加入任何课程，赶紧点击右上角加入吧！</string>
+    <string name="rate">出勤率：</string>
+    <string name="title_join_course">加入课程</string>
+    <string name="menu_search"> </string>
+
+    <string name="title_activity_start">StartActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="not_found_course">没有查询到该课程</string>
+    <string name="input_course_password">输入课程密码</string>
+    <string name="addCourse">加入课程</string>
+    <string name="page_signin">签到</string>
+    <string name="title_create_course">创建课程</string>
+    <string name="long_click_to_start">还没发起任何签到</string>
+    <string name="slide_to_course_page">发起签到</string>
+    <string name="start_sign_in">开始签到</string>
+    <string name="stop_sign_in">停止签到</string>
+    <string name="title_sign_in">签到</string>
+    <string name="click_to_start">点击开始签到</string>
+    <string name="logout">退出登录</string>
+    <string name="no_signing_course">没有课程正在签到</string>
+    <string name="sign_in">签到</string>
+    <string name="signed">已签到</string>
+    <string name="course_name">课程名：</string>
+    <string name="join_password">加入密码：</string>
+    <string name="begin_time">上课时间：</string>
+    <string name="create_course">创建课程</string>
+    <string name="end_time">下课时间</string>
+    <string name="space">space</string>
+    <string name="personal_setting">个人设置</string>
+    <string name="about">关于</string>
+    <string name="exit">退出登录</string>
+    <string name="initiate_sign_in">发起签到</string>
+    <string name="stuId">学号：</string>
+    <string name="email">电子邮箱</string>
+    <string name="loginPwd">登陆密码</string>
+    <string name="phone">手机号码</string>
+    <string name="check_sign_record">查看签到记录</string>
+</resources>
